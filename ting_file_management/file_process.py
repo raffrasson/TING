@@ -16,7 +16,9 @@ def process(path_file, instance):
 
 
 def remove(instance):
-    # consultei https://www.section.io/engineering-education/queue-data-structure-python/ para suporte
+    # consultei
+    # https://www.section.io/engineering-education/queue-data-structure-python/
+    #  para suporte
     if len(instance) == 0:
         print("Não há elementos")
     else:
