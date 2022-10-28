@@ -16,7 +16,13 @@ def process(path_file, instance):
 
 
 def remove(instance):
-    """Aqui irá sua implementação"""
+    # consultei https://www.section.io/engineering-education/queue-data-structure-python/ para suporte
+    if len(instance) == 0:
+        print("Não há elementos")
+    else:
+        file = instance.dequeue()
+        name = file["nome_do_arquivo"]
+        print(f"Arquivo {name} removido com sucesso")
 
 
 def file_metadata(instance, position):
